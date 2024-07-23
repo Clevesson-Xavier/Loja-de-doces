@@ -6,3 +6,5 @@
 
 #### Nesta atividade foi proposto a criação de um site, usando html e css, além de tornar ele reponsivo.
 #### O projeto seguiu a construcão de uma página web ficticia de uma doceria.
+
+### Link do site: https://clevesson-xavier.github.io/Loja-de-doces/
