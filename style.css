@@ -82,7 +82,7 @@ section.sobre .interface{
 
 .sobre img{
     width: 400px;
-    border-radius: 200px;
+    border-radius: 1000px;
     transition: .2s;
 }
 
@@ -151,6 +151,9 @@ footer i{
 
 @media screen and (max-width: 1020px){
 
+    .menu-desktop{
+        display: none;
+    }
 
     .flex{
         flex-direction: column-reverse;
@@ -193,9 +196,11 @@ footer i{
     footer .interface, .btn-social{
         text-align: center;
         flex-direction: column;
+
     }
 
     footer .line-footer p{
         font-size: 15px;
     }
 }
+
