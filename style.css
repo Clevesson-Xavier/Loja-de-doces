@@ -19,12 +19,15 @@ body{
     width: 150px;
 }
 
+.flex{
+    display: flex;
+}
+
 header{
     padding: 10px 4%;
 }
 
 header>.interface{
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -72,7 +75,6 @@ header nav ul li{
 /*SOBRE*/
 section.sobre .interface{
     padding: 40px 4%;
-    display: flex;
     align-items: center;
     justify-content: center;
     gap: 90px;
@@ -100,3 +102,100 @@ section .interface .txt-sobre h1{
     color: rgb(71, 15, 15);
 }
 
+/*RODAPE*/
+
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 30px 10px rgb(71, 15, 15);
+}
+
+
+footer  .logo-footer img{
+    width: 150px;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(71, 15, 15);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+footer .line-footer p i{
+    color: rgb(71, 15, 15);
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: rgb(44, 0, 0);
+    
+}
+
+footer i{
+    color: white;
+}
+
+@media screen and (max-width: 1020px){
+
+
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    header nav ul li{
+        padding: 2px 0;
+    }
+
+    .btn-contato{
+        padding: 5dvh 20px;
+        font-size: 5px;
+        font-weight: 50px;
+    }
+
+    section.sobre .flex{
+        gap: 40px;
+    }
+    section.tsobre{
+        padding: 20px 8%;
+    }
+
+    .sobre h1, p{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .sobre p{
+        font-size: 15px;
+    }
+
+    .sobre .img-sobre img{
+        width: 100%;
+    }
+
+    .sobre .btn-contato{
+        text-align: center;
+    }
+
+    footer .interface, .btn-social{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    footer .line-footer p{
+        font-size: 15px;
+    }
+}
